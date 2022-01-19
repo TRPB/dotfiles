@@ -1,0 +1,45 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+	"variables":
+	{
+		"scroll_bar_bg": "#eceff4",
+		"scroll_bar_puck_bg": "#5e81ac",
+		"sidebar_bg": "#3b4252",
+		"status_bar_bg": "#434c5e",
+		"sidebar_label": "#d8dee9",
+		"sidebar_label_selected": "#eceff4",
+		"sidebar_row_selected": "#4c566a",
+		"overlay_bg": "#434c5e",
+		"overlay_selected": "#eceff4",
+		"sidebar_heading": "#d8dee9",
+		"base_hue": "#2e3440",
+		"base_tint": "#eceff4",
+		"text_fg": "#d8dee9",
+		"tool_tip_fg": "#3b4252",
+		"tabset_dark_tint_mod": "#000",
+		"tabset_dark_bg": "#d8dee9",
+		"tabset_medium_dark_bg": "#434c5e",
+		"auto_complete_bg_light_tint": "#3b4252",
+
+		"sidebar_scroll_bar_bg": "#81a1c1",
+		"sidebar_scroll_bar_puck_bg": "#81a1c1",
+		"scroll_bar_dark_bg": "#81a1c1",
+		"scroll_bar_puck_dark_bg": "#81a1c1",
+
+		"text_widget_dark_modifier": "blend(#434c5e 0%)",
+		"text_widget_light_modifier": "blend(#4c566a 0%)",
+
+	},
+	"rules":
+	[
+		{
+			"class": "text_area_control",
+			"settings": {
+				"inactive_sheet_dimming": true,
+			},
+			"attributes": ["highlighted"],
+			"parents": [{"class": "text_line_control"}],
+			"background_modifier": "var(text_widget_light_modifier)",
+		},
+	]
+}

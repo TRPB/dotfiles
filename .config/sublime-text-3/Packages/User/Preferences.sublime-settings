@@ -1,0 +1,26 @@
+{
+	"added_words":
+	[
+		"analyse",
+		"Normalised",
+		"Insphpect"
+	],
+	"color_scheme": "Nord.sublime-color-scheme",
+	"font_size": 13,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"ignored_words":
+	[
+		"analysed"
+	],
+	"theme": "Default Dark.sublime-theme",
+	"hardware_acceleration": "opengl",
+	"font_face": "Hack",
+	"gtk_client_side_window_decorations": false,
+
+	"themed_title_bar": true,
+	"show_minimap": true,
+	/*"font_size": 10*/
+}

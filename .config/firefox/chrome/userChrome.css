@@ -1,0 +1,48 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#sidebar-box[sidebarcommand="_f9a7bfdd-59d9-4740-82e4-26232256236d_-sidebar-action"] #sidebar-header {
+	display: none !important;
+}
+
+#sidebar-box[sidebarcommand="_f9a7bfdd-59d9-4740-82e4-26232256236d_-sidebar-action"] + #sidebar-splitter {
+	width: 1px !important;
+	border: 0 !important;
+}
+
+#sidebar-box[sidebarcommand="_f9a7bfdd-59d9-4740-82e4-26232256236d_-sidebar-action"] #sidebar {
+	min-width: 0em !important;
+}
+
+.tabbrowser-tab[pinned=true] {
+	display: none;
+}
+
+
+
+ #sidebar-header {
+	display: none !important;
+}
+
+ #sidebar-splitter {
+	width: 1px !important;
+	border: 0 !important;
+}
+
+ #sidebar {
+	min-width: 0em !important;
+}
+
+
+.tab-background {background-color: #4c566a !important; box-
+    shadow: none !important;
+     margin-block: 1px 0 !important;
+     border-radius: 0 !important;
+
+}
+
+.tab-background[selected="true"], .tab-background[multiselected="true"]  {background-image: none !important; background-color:  #3b4252 !important;}
+/*  */
+
+#statuspanel {
+    display: none !important;
+}

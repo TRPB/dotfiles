@@ -1,0 +1,14 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Git",
+		"Highlight",
+		"INI",
+		"Package Control",
+		"WordCount"
+	],
+}

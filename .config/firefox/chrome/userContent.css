@@ -1,0 +1,33 @@
+ 
+@-moz-document url-prefix("about:newtab") {
+    body {
+        background-color: #2e3440 !important;
+        color: #d8dee9 !important;
+    }
+
+    button, input {
+        background-color: #4c566a !important;
+        color: #d8dee9 !important;
+    }
+
+    .top-site-outer .tile {
+        background-color: #4c566a !important;
+    }
+}
+
+@-moz-document url-prefix("about:home") {
+    body {
+        background-color: #2e3440 !important;
+        color: #d8dee9 !important;
+    }
+
+    button, input {
+        background-color: #4c566a !important;
+        color: #d8dee9 !important;
+    }
+
+    .top-site-outer .tile {
+        background-color: #4c566a !important;
+    }
+
+}

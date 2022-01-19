@@ -1,0 +1,25 @@
+sort=-time
+layer=overlay
+background-color=#2e3440
+width=300
+height=110
+border-size=2
+border-color=#5e81ac
+border-radius=0
+icons=1
+max-icon-size=64
+default-timeout=5000
+ignore-timeout=1
+padding=14
+font=Noto Sans 11
+margin=20
+
+[urgency=low]
+border-color=#4c566a
+
+[urgency=normal]
+border-color=#4c566a
+
+[urgency=high]
+border-color=#8fbcbb
+default-timeout=50000o
