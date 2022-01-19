@@ -31,8 +31,9 @@ find . -name "*" -type f -exec sed -i 's/'767B87'/'4c566a'/gI' {} \;
 
 
 # highlight color
-find . -name "*" -type f -execed -i 's/'5294E2'/'4c566a'/gI' {} \;
+find . -name "*" -type f -exec sed -i 's/'5294E2'/'4c566a'/gI' {} \;
 
+find . -name "*" -type f -exec sed -i 's/'4693e6'/'4c566a'/gI' {} \;
 
 # white - some fonts
 find . -name "*" -type f -exec sed -i 's/'FFFFFF'/'eceff4'/gI' {} \;
@@ -78,6 +79,9 @@ find . -name "*" -type f -exec sed -i 's/'565965'/'4c566a'/gI' {} \;
 
 # highlight color
 find . -name "*" -type f -exec sed -i 's/'5294E2'/'4c566a'/gI' {} \;
+
+
+find . -name "*" -type f -exec sed -i 's/'4693e6'/'4c566a'/gI' {} \;
 
 # colour used for alternating rows
 find . -name "*" -type f -exec sed -i 's/'3C434F'/'3b4252'/gI' {} \;
