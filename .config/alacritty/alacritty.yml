@@ -32,7 +32,7 @@ window:
   #dimensions:
   #  columns: 0
   #  lines: 0
-
+  opacity: 0.5
   # Window position (changes require restart)
   #
   # Specified in number of pixels.
@@ -111,46 +111,46 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: hack
+   family: Hack Nerd Font
 
     # The `style` can be specified to pick a specific face.
     #style: Regular
 
   # Bold font face
-  #bold:
+  bold:
     # Font family
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    #family: monospace
+    family: Hack
 
     # The `style` can be specified to pick a specific face.
-    #style: Bold
+    style: Regular
 
   # Italic font face
-  #italic:
+  italic:
     # Font family
     #
     # If the italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    #family: monospace
+    family: Hack
 
     # The `style` can be specified to pick a specific face.
-    #style: Italic
+    style: Italic
 
   # Bold italic font face
-  #bold_italic:
+  bold_italic:
     # Font family
     #
     # If the bold italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    #family: monospace
+    family: Hack
 
     # The `style` can be specified to pick a specific face.
-    #style: Bold Italic
+    style: Bold Italic
 
   # Point size
-  size: 14.0
+  size: 20.0
 
   # Offset is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter
@@ -379,7 +379,7 @@ colors:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.5
+#background_opacity: 0.5
 
 #selection:
   # This string contains all characters that are used as separators for
@@ -441,8 +441,8 @@ background_opacity: 0.5
 #   - (macOS) /bin/bash --login
 #   - (Linux/BSD) user login shell
 #   - (Windows) powershell
-#shell:
-#  program: /bin/bash
+shell:
+  program: /bin/zsh
 #  args:
 #    - --login
 
@@ -742,6 +742,11 @@ background_opacity: 0.5
 # If the same trigger is assigned to multiple actions, all of them are executed
 # in the order they were defined in.
 #key_bindings:
+
+key_bindings:
+  - { key: V,        mods: Control, action: Paste                  }
+  - { key: C,        mods: Control, action: Copy                   }
+  - { key: C,        mods: Control|Shift, chars: "\x03"            }
   #- { key: Paste,                                       action: Paste          }
   #- { key: Copy,                                        action: Copy           }
   #- { key: L,         mods: Control,                    action: ClearLogNotice }
